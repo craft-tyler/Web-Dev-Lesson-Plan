@@ -1,0 +1,23 @@
+header {
+	background: url('img/header-bg.jpg');
+}
+
+header.level-2-header {
+	background: url('img/header-bg-2.jpg');
+
+	h1 {
+		color: $brand-primary;
+	}
+}
+
+header.level-3-header {
+	background: url('img/header-bg-3.jpg');
+
+	h1 {
+		color: $brand-primary;
+	}
+}
+
+div.silabii-header h1 {
+	color: $c-gray;
+}

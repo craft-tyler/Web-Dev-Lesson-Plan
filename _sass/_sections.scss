@@ -1,0 +1,75 @@
+.part-container {
+	position: relative;
+	text-align: center;
+	margin: 80px 0;
+
+	span {
+		display: inline-block;
+		background: $brand-part;
+		z-index: 9;
+		position: relative;
+		border-radius: 40px;
+		font-family: $f-stack-header;
+		text-transform: uppercase;
+		color: $c-gray;
+		padding: 10px 48px;
+	}
+
+	&:after {
+		position: absolute;
+		display: block;
+		content: "";
+		height: 2px;
+		width: 100%;
+		border-bottom: 2px solid $brand-part;
+		top: 50%;
+		margin-top: -1px;
+		z-index: 0;
+	}
+}
+
+section {
+	margin-bottom: 80px;
+}
+
+.section-header {
+	background: #fafafa;
+	border: 2px solid $section-border-color;
+	color: $c-gray;
+	text-align: center;
+	padding: 17px 20px;
+
+	h2 {
+		color: $c-gray;
+	}
+
+	span {
+		margin-right: 10px;
+		line-height: 26px;
+    	display: inline-block;
+    	vertical-align: sub;
+	}
+}
+
+.course-note {
+	background: $white;
+	border: 2px solid $section-border-color;
+	border-top: 0;
+	padding: 30px 60px 40px;
+
+	h2 {
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+
+	p {
+		font-size: 24px;
+		line-height: 33px;
+		color: #6F6F6F;
+	}
+}
+
+.part-selector {
+	text-align: center;
+	margin: 40px auto 80px;
+}

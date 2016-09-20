@@ -1,0 +1,20 @@
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: $f-stack-header;
+	font-size: 48px;
+	line-height: 58px;
+	color: $white;
+	text-align: center;
+	font-weight: 400;
+	padding: 70px 0;
+}
+
+h2 {
+	font-family: $f-stack-header;
+	font-size: 26px;
+	line-height: 32px;
+	color: $brand-primary;
+}

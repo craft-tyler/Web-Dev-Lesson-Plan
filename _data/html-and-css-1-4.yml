@@ -1,0 +1,33 @@
+- class:
+  pages:
+    - title: Part 1
+      url: html-and-css-1-1.html
+    - title: Part 2
+      url: html-and-css-1-2.html
+    - title: Part 3
+      url: html-and-css-1-3.html
+    - title: Part 4
+      url: html-and-css-1-4.html
+  part: Part 4
+  sections: 
+    - title: Discussion
+      mode: discuission
+      notes: 
+        - title: Positioning Content
+          content: One of the best things about CSS is that it gives us the ability to position content and elements on a page in nearly any imaginable way, bringing structure to our designs and helping make content more digestible.
+        - title: Position with Floats
+          content: Understanding how to use floats properly can be very difficult.  But, we are going to reveal the mystery of the float and how to harness it's powers!
+        - title: Clearing &amp; Containing Float
+          content: Length values within CSS are similar to colors in that there are a handful of different types of values.
+        - title: Positioning with Inline-Block
+          content: In addition to using floats, another way we can position content is by using the displayproperty in conjunction with the inline-block value.
+    - title: Practice
+      mode: practice
+      notes: 
+        - title: Creating Page Layouts
+          content: <p>- 2 column left template</p><p>- 2 column right template</p><p>- 3 column right template</p>
+    - title: Discussion
+      mode: discuission
+      notes: 
+        - title: Uniquely Positioning Elements
+          content: Every now and then we'll want to precisely position an element, but floats or inline-block elements won't do the trick.

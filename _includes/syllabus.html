@@ -1,0 +1,33 @@
+{% assign base = '' %}
+{% assign depth = page.url | split: '/' | size | minus: 1 %}
+{% if    depth <= 1 %}{% assign base = '.' %}
+{% elsif depth == 2 %}{% assign base = '..' %}
+{% elsif depth == 3 %}{% assign base = '../..' %}
+{% elsif depth == 4 %}{% assign base = '../../..' %}{% endif %}
+
+{% for class in site.data[class] %}
+	<div class="part-selector">
+		<a href="{{ base }}" class="button">Home</a>
+		{% for page in class.pages %}
+			<a href="{{ page.url }}" class="button">{{ page.title }}</a>
+		{% endfor %}
+	</div>
+	<div class="part-container">
+		<span>{{ class.part }}</span>
+	</div>
+	<div class="wrapper">
+		{% for section in class.sections %}
+			<section>
+				<div class="section-header {{section.mode}}">
+					<h2><span class="ss-chat"></span>{{ section.title }}</h2>
+				</div>
+				{% for note in section.notes %}
+					<div class="course-note">
+						<h2>{{ note.title }}</h2>
+						<p>{{ note.content }}</p>
+					</div>
+				{% endfor %}
+			</section>
+		{% endfor %}
+	</div>
+{% endfor %}

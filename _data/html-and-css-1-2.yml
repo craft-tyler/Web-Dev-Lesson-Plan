@@ -1,0 +1,35 @@
+- class:
+  pages:
+    - title: Part 1
+      url: html-and-css-1-1.html
+    - title: Part 2
+      url: html-and-css-1-2.html
+    - title: Part 3
+      url: html-and-css-1-3.html
+    - title: Part 4
+      url: html-and-css-1-4.html
+  part: Part 2
+  sections: 
+    - title: Discussion
+      mode: discuission
+      notes: 
+        - title: CSS and The Cascade
+          content: Understanding the cascading properties of CSS will allow us to write more efficiant CSS.
+        - title: Layering Styles with Multiple Classes
+          content: You will learn to understand how a selector can be used to define specificity in your CSS.
+        - title: Calculating Properties
+          content: Every selector in CSS has a specificity weight. A selector's specificity weight, along with its placement in the cascade, identifies how its styles will be rendered.
+    - title: Practice
+      mode: practice
+      notes: 
+        - title: Calculating Properties
+          content: We will run through some examples of specificity to detirmine what styles will be applied.
+    - title: Discussion
+      mode: discuission
+      notes: 
+        - title: Common CSS Property Values
+          content: Specifically, we'll look at property values that relate to colors and length measurements.
+        - title: CSS Colors
+          content: All color values within CSS are defined on an sRGB (or standard red, green, and blue) color space.
+        - title: CSS Lengths
+          content: Length values within CSS are similar to colors in that there are a handful of different types of values.

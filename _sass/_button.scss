@@ -1,0 +1,14 @@
+.button {
+	display: inline-block;
+	font-family: $f-stack-header;
+	background: $brand-secondary;
+	font-size: 18px;
+	padding: 10px 40px 8px;
+	color: $white;
+	text-decoration: none;
+	border-radius: 5px;
+
+	&:hover {
+		background: lighten($brand-secondary, 5%);
+	}
+}
