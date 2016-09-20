@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "https://fonts.googleapis.com/css?family=Montserrat|Open+Sans";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  line-height: 58px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  padding: 70px 0; }
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  line-height: 32px;
+  color: #2f3f4d; }
+
+.button {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  background: #2394bf;
+  font-size: 18px;
+  padding: 10px 40px 8px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px; }
+  .button:hover {
+    background: #27a5d5; }
+
+header {
+  background: url("img/header-bg.jpg"); }
+
+header.level-2-header {
+  background: url("img/header-bg-2.jpg"); }
+  header.level-2-header h1 {
+    color: #2f3f4d; }
+
+header.level-3-header {
+  background: url("img/header-bg-3.jpg"); }
+  header.level-3-header h1 {
+    color: #2f3f4d; }
+
+div.silabii-header h1 {
+  color: #7B7B7B; }
+
+.part-container {
+  position: relative;
+  text-align: center;
+  margin: 80px 0; }
+  .part-container span {
+    display: inline-block;
+    background: #ebedee;
+    z-index: 9;
+    position: relative;
+    border-radius: 40px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #7B7B7B;
+    padding: 10px 48px; }
+  .part-container:after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 100%;
+    border-bottom: 2px solid #ebedee;
+    top: 50%;
+    margin-top: -1px;
+    z-index: 0; }
+
+section {
+  margin-bottom: 80px; }
+
+.section-header {
+  background: #fafafa;
+  border: 2px solid #DCDCDC;
+  color: #7B7B7B;
+  text-align: center;
+  padding: 17px 20px; }
+  .section-header h2 {
+    color: #7B7B7B; }
+  .section-header span {
+    margin-right: 10px;
+    line-height: 26px;
+    display: inline-block;
+    vertical-align: sub; }
+
+.course-note {
+  background: #fff;
+  border: 2px solid #DCDCDC;
+  border-top: 0;
+  padding: 30px 60px 40px; }
+  .course-note h2 {
+    font-weight: 700;
+    margin-bottom: 10px; }
+  .course-note p {
+    font-size: 24px;
+    line-height: 33px;
+    color: #6F6F6F; }
+
+.part-selector {
+  text-align: center;
+  margin: 40px auto 80px; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background: #f5f7f8;
+  font-family: "Open Sans", sans-serif; }
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto; }
